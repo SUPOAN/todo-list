@@ -18,5 +18,5 @@ const todoSchema = new Schema({
 })
 
 
-//透過 module.exports 輸出。d
+//透過 module.exports 輸出。
 module.exports = mongoose.model("Todo".todoSchema)
